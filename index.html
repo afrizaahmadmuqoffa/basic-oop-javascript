@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    //1. CLASS AND OBJECT
+    // class Buku {
+    //     judul = 'Belajar OOP Javascript'
+    //     penulis = 'Afriza'
+
+    //     log() {
+    //         console.log(`Buku berjudul ${this.judul} ditulis oleh ${this.penulis}`)
+    //     }
+    // }
+
+    // const buku = new Buku()
+    // buku.log()
+
+    //2. INHERITANCE
+    // class Hewan {
+    //     constructor(nama, suara) {
+    //         this.nama = nama
+    //         this.suara = suara
+    //     }
+    // }
+
+    // class Kucing extends Hewan {
+    //     meow() {
+    //         console.log(this.nama, this.suara)
+    //     }
+    // }
+
+    // const kucing = new Kucing('Kucing', 'Meow')
+    // kucing.meow()
+
+    //3. ENCAPSULATION
+    // class User {
+    //     #nama
+    //     #email
+    //     constructor(nama, email) {
+    //         this.#nama = nama
+    //         this.#email = email
+    //     }
+
+    //     get dataUser() {
+    //         return `${this.#nama} ${this.#email}`
+    //     }
+
+    //     set namaUser(nama) {
+    //         this.#nama = nama
+    //     }
+
+    //     set emailUser(email) {
+    //         this.#email = email
+    //     }
+    // }
+
+    // const user1 = new User('Afriza', 'awokwowk@gmail.com')
+
+    // console.log(user1.dataUser)
+
+    // user1.namaUser = 'Joko'
+    // user1.emailUser = 'bjir@gmail.com'
+
+    // console.log(user1.dataUser)
+
+    //4. POLYMORPHISM
+    // class Kendaraan {
+    //     constructor(kecepatan, kendaraan) {
+    //         this.kecepatan = kecepatan
+    //         this.kendaraan = kendaraan
+    //     }
+
+    //     bergerak() {
+    //         console.log(`${this.kendaraan} bergerak dengan kecepatan ${this.kecepatan} km/jam`)
+    //     }
+    // }
+
+    // class Motor extends Kendaraan {
+    //     constructor(kecepatan, kendaraan) {
+    //         super(kecepatan, kendaraan)
+    //     }
+
+    //     bergerak() {
+    //         super.bergerak()
+    //     }
+    // }
+
+    // class Mobil extends Kendaraan {
+    //     constructor(kecepatan, kendaraan) {
+    //         super(kecepatan, kendaraan)
+    //     }
+
+    //     bergerak() {
+    //         super.bergerak()
+    //     }
+    // }
+
+    // const kendaraan = new Kendaraan(20, 'Kendaraan')
+    // const motor = new Motor(10, 'Motor')
+    // const mobil = new Mobil(30, 'Mobil')
+
+    // kendaraan.bergerak()
+    // motor.bergerak()
+    // mobil.bergerak()
+
+    //STATIC
+    // class Kalkulator {
+    //     static tambah(angka1, angka2) {
+    //         return angka1 + angka2
+    //     }
+
+    //     static kurang(angka1, angka2) {
+    //         return angka1 - angka2
+    //     }
+    // }
+
+    // const tambah = Kalkulator.tambah(1, 2)
+    // const kurang = Kalkulator.kurang(3, 2)
+
+    // console.log(tambah)
+    // console.log(kurang)
+</script>
+
+</html>
